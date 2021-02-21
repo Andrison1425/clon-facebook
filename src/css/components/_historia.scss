@@ -1,0 +1,42 @@
+.historia__cont{
+    margin: 1.5rem 0;
+
+}
+
+.historias__historia{
+    height: 198px;
+    width: 112px;
+    border-radius: 12px;
+    box-shadow: 0 0 2px gray;
+    position: relative;
+    overflow:hidden;
+
+    .img-cover{
+        height: 65%;
+        background-image: url(../../img/adrian.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    button{
+        background-color:$azul;
+        border:solid 5px white;
+        width: 40px;
+        border-radius: 50%;
+        margin-top:-20px;
+        margin-left: calc(55px - 20px);
+        height: 40px;
+        position: absolute;
+        color: white;
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    >h3{
+        height: 35%;
+        background-color: white;
+        padding: 1rem;
+        text-align: center;
+    }
+}

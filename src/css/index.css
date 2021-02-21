@@ -1,0 +1,32 @@
+:root{
+    --bgFondo:#f0f2f5;
+    --blanco:#fff;
+}
+
+body{
+    background: var(--bgFondo);
+}
+
+h2{
+    letter-spacing: -0.5px;
+    font-weight: 600;
+}
+
+.padding{
+    padding:1.5rem 1.1rem;
+}
+
+button h3{
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.centrar{
+    display:flex;
+    justify-items: center;
+    flex-direction: column;
+}
+
+hr{
+    width:100%;
+}

@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'segoe';
+    src: url('../segoe-ui-historic.ttf');
+}
+
+*{
+    list-style: none;
+    text-decoration: none;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "segoe", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    background-color: #f0f2f5;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.titulo-gris{
+    color:$texto-gris;
+}

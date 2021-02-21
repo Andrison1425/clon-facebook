@@ -1,0 +1,37 @@
+
+$tamLogo:70px;
+
+.auth__centrar{
+    margin-top:5rem;
+}
+
+.auth__logo{
+    height:$tamLogo;
+}
+
+
+.auth__flex{
+    width:160px;
+    img{
+        height:160px;
+        width:160px;
+    }
+    background-color: white;
+    box-shadow: 0 0 0.1rem black;
+    border-radius: 0.4rem;
+    text-align: center;
+}
+
+.auth__mt-cont{
+    margin-top:$tamLogo;
+    width:90%;
+    box-shadow: 0 0 0.5rem black;
+}
+
+
+.auth__btn{
+    margin:0.2rem auto;
+    font-size:1.1rem;
+    font-weight:700;
+    padding: 0.7rem 0.6rem;
+}

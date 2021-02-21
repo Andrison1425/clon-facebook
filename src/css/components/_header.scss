@@ -1,0 +1,147 @@
+$input-height:40px;
+
+header{
+    display:flex;
+    justify-content:space-between;
+    height:56px;
+    width:100%;
+    background-color: $cont-color;
+    padding:0.1rem 0.7rem 0 0.7rem;
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.37);
+    position: fixed;
+    top:0;
+}
+
+.reyeno{
+    height: 56px;
+}
+
+/*Buscador*/
+
+.header__img-logo{
+    width:40px;
+    height: 40px;
+    margin-right:0.4rem;
+}
+
+.header__cont-buscador{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__input{
+    border:none;
+    background-color:$bg-fondo;
+    padding:0 0.8rem 0 2rem;
+    border-radius: 2rem;
+    height: $input-height;
+    width: 15rem;
+    color:darken($color: $gris, $amount: 20);
+}
+
+.header__icon-buscar{
+    position:absolute;
+    left: 10px;
+    font-size: 16px;
+    top:12px;
+    color:darken($color: $gris, $amount: 30);
+    font-weight: 600;
+}
+
+.header__font-buscar{
+    position: relative;
+}
+
+/*nav*/
+
+.header__nav{
+    
+    ul{
+        list-style: none;
+        display: flex;
+        font-size: 28px;
+        justify-content: space-between;
+        margin:0;
+        height: 100%;
+    }
+
+    a{
+        text-decoration: none;
+    }
+}
+
+.header__nav-item{
+    color:transparent;
+    font-size: 26px;
+    -webkit-text-stroke: #707070 1.5px;
+    display: flex;
+    width: 7.5rem;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.activo{
+    color:$azul;
+    border-bottom:solid 3px $azul;
+    -webkit-text-stroke:transparent;
+}
+
+.header__cont-opciones{
+    display: flex;
+    flex-wrap: wrap;
+    padding:0.3rem 0;
+    align-items: center;
+    
+    >*{
+        margin-left: 0.8rem;
+    }
+
+    li{
+        font-size: 20px;
+        background-color: lighten($color: $gris, $amount: 18);
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition:background-color .2s ease;
+        cursor:pointer;
+
+        &:hover{
+            background-color: lighten($color: $gris, $amount: 10);
+        }
+    }
+}
+
+.header__btn-bio{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:0.1rem;
+    transition:background-color 0.2s ease; 
+    padding: 0.3rem 0.7rem 0.3rem 0.2rem;
+    border-radius: 2rem;
+    height: 100%;
+    cursor:pointer;
+
+    &:hover{
+        background-color: lighten($color: $gris, $amount: 23);
+    }
+
+    img{
+        border-radius: 50%;
+        height: 1.7rem;
+        width: 1.7rem;
+        border:solid 0.1rem lighten($color: $gris, $amount: 10) ;
+        margin-right: 0.3rem;
+    }
+
+    h5{
+        font-size: 16px;
+    }
+}

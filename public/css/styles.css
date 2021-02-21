@@ -1,0 +1,62 @@
+:root {
+    --primario: #71b100;
+    --secundario: #e08709;
+}
+
+.nav-1{
+    position: absolute;
+    z-index: 3;
+    background-color: var(--primario);
+}
+
+.bg-success{
+    background-color: var(--primario) !important;
+}
+
+.btn-warning{
+    background-color: var(--secundario) !important;
+    border-color: var(--secundario) !important;
+    color: white;
+}
+
+.btn-warning:hover{
+    background-color: white !important;
+    color:#e08709;
+}
+
+.reyeno{
+    height:56px ;
+}
+
+.nav-1 .dropdown-menu{
+    background-color: var(--primario) !important;
+}
+
+.nav-1 .dropdown-item:hover{
+    background-color:#e08709 !important;
+}
+
+.precio{
+    color:#71b100;
+}
+
+.iconos_card li{
+    list-style: none;
+}
+
+.fondo_mensaje{
+    background-image: url('../img/contacto.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6rem 0;
+}
+
+footer a{
+    color:white;
+}
+
+@media (min-width: 575px){
+    .nav-1{
+        background-color: transparent;
+    }
+}
