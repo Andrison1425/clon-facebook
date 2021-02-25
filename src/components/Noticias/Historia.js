@@ -11,7 +11,7 @@ const Historia = () => {
 
 export const HistoriaEspe = () => {
     return (
-        <div className="historias__historia">
+        <div className="historias__historia cont-card">
             <div className="img-cover"></div>
             <button type="button">+</button>
             <h3>Crear una historia</h3>

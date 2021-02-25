@@ -1,0 +1,30 @@
+.noticia__noticia{
+    padding:1rem;
+    .info-publicado{
+        display: flex;
+        >span{
+            flex:1;
+            span{
+                color:$texto-gris;
+            }
+        }
+        >i{
+            height: max-content;
+            padding:10px;
+            font-size: 14px;
+            color:$texto-gris;
+            border-radius: 50%;
+            cursor: pointer;
+            &:hover{
+                background-color: $bg-fondo;
+            }
+        }
+        h3{
+            font-size: 15px;
+            margin-bottom: 3px;
+            span{
+                color:$texto-gris;
+            }
+        }
+    }
+}
